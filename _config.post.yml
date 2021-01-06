@@ -1,0 +1,47 @@
+widgets:
+    # Profile widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: profile
+        # Author name
+        author: Fly
+        # Author title
+        author_title: 背嶪太山之崔嵬，翼举长云之纵横
+        # Author's current location
+        location: Chengdu, China
+        # URL or path to the avatar image
+        avatar: 
+        # Whether show the rounded avatar image
+        avatar_rounded: false
+        # Email address for the Gravatar
+        gravatar: 
+        # URL or path for the follow button
+        follow_link: 'https://github.com/ppoffice'
+        # Links to be shown on the bottom of the profile widget
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/ppoffice'
+            Facebook:
+                icon: fab fa-facebook
+                url: 'https://facebook.com'
+            Twitter:
+                icon: fab fa-twitter
+                url: 'https://twitter.com'
+            Dribbble:
+                icon: fab fa-dribbble
+                url: 'https://dribbble.com'
+            RSS:
+                icon: fas fa-rss
+                url: /
+        
+    -
+        type: recent_posts
+        position: left
+    -
+        type: categories
+        position: left
+    -
+        type: tags
+        position: left
